@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-219.9550059230039
+220.1632115969724
  22
-144.274284667563
+144.3382432732919
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-279.9427348110959
+299.5086248785381
  41
-1.799276672694394
+1.681735985533454
  42
 50
  43
@@ -8251,52 +8251,6 @@ F7
 100
 AcDbEntity
   8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-303
- 20
-35
- 30
-0
- 40
-3
- 41
-66.91666539465454
- 71
-    1
- 72
-    1
-  1
-Schema: MC-POC48SEMIAE06A3TR\PAutore: Belardi\PData: 01/16\PFoglio: 1 di 20
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-F8
-100
-AcDbEntity
-  8
 text
   6
 ByLayer
@@ -8322,6 +8276,52 @@ AcDbMText
     1
   1
 OLEO SIMPLEX\PCENTRALINA START ELEVATOR CON VALVOLA ELETTRONICA LIVELLAZIONE\PSOFT STARTER\PTESTATA RIDOTTA (FOSSA RIDOTTA)\PEMENDAMENTO A3\PPORTE 48VCC\PCHIAVI PRIORITARIE\P\P\P
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+F8
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+303
+ 20
+35
+ 30
+0
+ 40
+3
+ 41
+66.91666539465454
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-POC48SEMIAE06A3TR\PFoglio: 1 di 20
   7
 standard
 210

@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-243.7851782363977
+243.8331114204442
  22
-151.5647279549718
+151.7250045391272
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-308.1444652908067
+329.681444047691
  41
-1.799276672694394
+1.681735985533454
  42
 50
  43
@@ -2751,7 +2751,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D3
  70
     0
 280
@@ -2769,7 +2769,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D3
+*D1
  70
     0
 280
@@ -3215,7 +3215,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D1
+*D3
  70
     1
  10
@@ -3223,137 +3223,13 @@ AcDbBlockBegin
  20
 0
   3
-*D1
+*D3
   1
 
   0
 LINE
   5
 94
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-54.77837274632044
- 20
-133.5595148152696
- 11
-54.77837274632044
- 21
-117.4616306351891
-  0
-LINE
-  5
-95
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-54.77837274632044
- 20
-117.4616306351891
- 11
-86.67603214018359
- 21
-117.4616306351891
-  0
-SOLID
-  5
-96
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbTrace
- 10
-54.77837274632044
- 20
-133.5595148152696
- 30
-0
- 11
-55.19465740409328
- 21
-131.0595148152696
- 31
-0
- 12
-54.3620880885476
- 22
-131.0595148152696
- 32
-0
- 13
-54.3620880885476
- 23
-131.0595148152696
- 33
-0
-  0
-ENDBLK
-  5
-57
-330
-55
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-59
-330
-58
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D3
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D3
-  1
-
-  0
-LINE
-  5
-97
 100
 AcDbEntity
   8
@@ -3377,7 +3253,7 @@ AcDbLine
   0
 SOLID
   5
-98
+95
 100
 AcDbEntity
   8
@@ -3412,6 +3288,130 @@ AcDbTrace
 228.6858390748032
  23
 118.0347024727334
+ 33
+0
+  0
+ENDBLK
+  5
+57
+330
+55
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+59
+330
+58
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*D1
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D1
+  1
+
+  0
+LINE
+  5
+96
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+54.77837274632044
+ 20
+133.5595148152696
+ 11
+54.77837274632044
+ 21
+117.4616306351891
+  0
+LINE
+  5
+97
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+54.77837274632044
+ 20
+117.4616306351891
+ 11
+86.67603214018359
+ 21
+117.4616306351891
+  0
+SOLID
+  5
+98
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbTrace
+ 10
+54.77837274632044
+ 20
+133.5595148152696
+ 30
+0
+ 11
+55.19465740409328
+ 21
+131.0595148152696
+ 31
+0
+ 12
+54.3620880885476
+ 22
+131.0595148152696
+ 32
+0
+ 13
+54.3620880885476
+ 23
+131.0595148152696
  33
 0
   0
@@ -21515,7 +21515,7 @@ AcDbMText
  72
     1
   1
-Schema: MC-POC48SEMIAE06A3TR\PAutore: Belardi\PData: 01/16\PFoglio: 7 di 20
+Schema: MC-POC48SEMIAE06A3TR\PFoglio: 7 di 20
   7
 standard
 210

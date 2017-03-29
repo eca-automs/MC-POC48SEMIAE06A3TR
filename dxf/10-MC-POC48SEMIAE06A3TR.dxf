@@ -1115,7 +1115,7 @@ AcDbViewportTableRecord
  21
 1
  12
-283.0422367638311
+240.8929490406175
  22
 151.5699551900989
  13
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 308.7225974958552
  41
-2.227848101265823
+1.681735985533454
  42
 50
  43
@@ -37951,52 +37951,6 @@ MTEXT
 100
 AcDbEntity
   8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-303.1853761789794
- 20
-37.8318098028
- 30
-0
- 40
-3
- 41
-66.91666539465454
- 71
-    1
- 72
-    1
-  1
-Schema: MC-POC48SEMIAE06A3TR\PAutore: Belardi\PData: 01/16\PFoglio: 10 di 20
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-4C7
-100
-AcDbEntity
-  8
 schematic
   6
 ByLayer
@@ -38039,7 +37993,7 @@ standard
   0
 MTEXT
   5
-4C8
+4C7
 100
 AcDbEntity
   8
@@ -38068,6 +38022,52 @@ AcDbMText
     1
   1
 60
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+4C8
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+303.1853761789794
+ 20
+37.8318098028
+ 30
+0
+ 40
+3
+ 41
+66.91666539465454
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-POC48SEMIAE06A3TR\PFoglio: 10 di 20
   7
 standard
 210
