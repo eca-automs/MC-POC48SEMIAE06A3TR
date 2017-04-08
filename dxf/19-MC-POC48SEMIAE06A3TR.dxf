@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-10000000000
+-0.5
  20
-10000000000
+0.25
  30
 0
   9
 $EXTMAX
  10
--10000000000
+419.5
  20
--10000000000
+297.25
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-text
+schematic
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-220.3230117119796
+232.6792899408284
  22
-144.4570689998357
+150.2573964497041
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-299.6531527214817
+304.0295857988166
  41
 1.680924855491329
  42
@@ -2321,7 +2321,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-text
+schematic
  70
     0
  62
@@ -7969,9 +7969,49 @@ SECTION
   2
 ENTITIES
   0
-LINE
+INSERT
   5
 EE
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+a3-0
+ 10
+-0.5
+ 20
+0.25
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+0
+ 45
+0
+  0
+LINE
+  5
+EF
 100
 AcDbEntity
   8
@@ -7992,30 +8032,6 @@ AcDbLine
 408.897887324
  21
 286.019366197
-  0
-LINE
-  5
-EF
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-408.897887324
- 20
-286.019366197
- 11
-408.897887324
- 21
-12.5492957746
   0
 LINE
   5
@@ -8035,6 +8051,30 @@ AcDbLine
  10
 408.897887324
  20
+286.019366197
+ 11
+408.897887324
+ 21
+12.5492957746
+  0
+LINE
+  5
+F1
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+408.897887324
+ 20
 12.5492957746
  11
 20.3926056338
@@ -8043,7 +8083,7 @@ AcDbLine
   0
 LINE
   5
-F1
+F2
 100
 AcDbEntity
   8
@@ -8067,7 +8107,7 @@ AcDbLine
   0
 LINE
   5
-F2
+F3
 100
 AcDbEntity
   8
@@ -8091,7 +8131,7 @@ AcDbLine
   0
 LINE
   5
-F3
+F4
 100
 AcDbEntity
   8
@@ -8115,7 +8155,7 @@ AcDbLine
   0
 INSERT
   5
-F4
+F5
 100
 AcDbEntity
   8
@@ -8153,9 +8193,105 @@ eca-logo-1
  45
 0
   0
+LINE
+  5
+F6
+100
+AcDbEntity
+  8
+help-lines
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-0.3706532681816158
+ 20
+148.6319605408279
+ 11
+15.1698729811
+ 21
+148.6319605408279
+  0
+LINE
+  5
+F7
+100
+AcDbEntity
+  8
+help-lines
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+413.830127019
+ 20
+148.6864622175099
+ 11
+419.5
+ 21
+148.7268816659979
+  0
+LINE
+  5
+F8
+100
+AcDbEntity
+  8
+help-lines
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+314.5451730611308
+ 20
+297.224709437482
+ 11
+314.5451730611308
+ 21
+291.580151019
+  0
+LINE
+  5
+F9
+100
+AcDbEntity
+  8
+help-lines
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+314.4947345867757
+ 20
+0.3389682416326533
+ 11
+314.4947345867757
+ 21
+5.91984898108
+  0
 MTEXT
   5
-F5
+FA
 100
 AcDbEntity
   8
@@ -8201,11 +8337,11 @@ standard
   0
 MTEXT
   5
-F6
+FB
 100
 AcDbEntity
   8
-text
+schematic
   6
 ByLayer
  62
@@ -8215,21 +8351,21 @@ ByLayer
 100
 AcDbMText
  10
-26.32372913232728
+30
  20
-50.62255602370631
+280
  30
 0
  40
-3
+10
  41
-153.1666660306604
+56.66666666666729
  71
     1
  72
     1
   1
-OLEO SIMPLEX\PCENTRALINA START ELEVATOR CON VALVOLA ELETTRONICA LIVELLAZIONE\PSOFT STARTER\PTESTATA RIDOTTA (FOSSA RIDOTTA)\PEMENDAMENTO A3\PPORTE 48VCC\PCHIAVI PRIORITARIE\P\P\P
+LEGENDA
   7
 standard
 210
@@ -8247,7 +8383,167 @@ standard
   0
 MTEXT
   5
-F7
+FC
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+30
+ 20
+260
+ 30
+0
+ 40
+5
+ 41
+31.11111005110036
+ 71
+    1
+ 72
+    1
+  1
+MORSETTI
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+FD
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+90
+ 20
+260
+ 30
+0
+ 40
+5
+ 41
+39.99999893998956
+ 71
+    1
+ 72
+    1
+  1
+DESCRIZIONE
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+FE
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+30
+ 20
+250
+ 30
+0
+ 40
+2.7
+ 41
+185.8499997
+ 71
+    1
+ 72
+    1
+  3
+L- - 6 - 11 - 13 - 19 - L+   MORSETTI CONNESSIONE CENTRALINA ELETTRONICA\PA - B                        ALLARME CENTRALINA START ELEVATOR\PCEV - ED1                    1%%D ELETTROVALVOLA DISCESA\PCEV - ED2                    2%%D ELETTROVALVOLA DISCE
+  3
+SA\P\PM1 - M1 - M1                 MOTORE PORTE LATO 1 - TRIFASE\PM2 - M2 - M2                 MOTORE PORTE LATO 2 - TRIFASE\PM1 - M1                      MOTORE PORTE LATO 1 - 48VCC\PM2 - M2                      MOTORE PORTE LATO 2 - 48VCC\PCOM - AP
+  3
+1                    COMANDO APERTURA PORTE LATO 1 OPERATORE ELETTRONICO\PCOM - CP1                    COMANDO CHIUSURA PORTE LATO 1 OPERATORE ELETTRONICO\PCOM - AP2                    COMANDO APERTURA PORTE LATO 2 OPERATORE ELETTRONICO\PCOM - CP2   
+  3
+                 COMANDO CHIUSURA PORTE LATO 2 OPERATORE ELETTRONICO\PCFC - FA1                    CONTATTO FINECORSA APERTURA PORTE LATO 1\PCFC - FC1                    CONTATTO FINECORSA CHIUSURA PORTE LATO 1\PCFC - FA2                    CONTATTO 
+  3
+FINECORSA APERTURA PORTE LATO 2\PCFC - FC2                    CONTATTO FINECORSA CHIUSURA PORTE LATO 2\PBRO - BR1                    BOBINA RALLENTAMENTO OPERATORE TRIFASE LATO 1\PBRO - BR2                    BOBINA RALLENTAMENTO OPERATORE TRIFASE LA
+  3
+TO 2\PBR1 - RA1                    CONTATTO RALLENTAMENTO APERTURA LATO 1\PBR1 - RC1                    CONTATTO RALLENTAMENTO CHIUSURA LATO 1\PBR2 - RA2                    CONTATTO RALLENTAMENTO APERTURA LATO 2\PBR2 - RC2                    CONTATTO
+  3
+ RALLENTAMENTO CHIUSURA LATO 2\PPR+ - PR-                    PATTINO RETRATTILE\P\PAL1 - AL2                    PULSANTE ALLARME (SENZA LEGGE 13)\PAL2 - AL3                    SUONERIA ALLARME(SENZA LEGGE 13)\PICP - ICP                    INDUTTORE C
+  3
+ABINA SPIA AL PIANO (SENZA LEGGE 13)\P\PAL- - AL1                    PULSANTE ALLARME\PAL- - ALR                    SPIA ALLARME RICEVUTO\PAL- - ALP                    LUMINOSA ALLARME AI PIANI\PAL- - PAR                    PULSANTE ALLARME RICEVUTO\
+  3
+PAL- - PRS                    PULSANTE RESET ALLARME\PAL- - AL+                    ALIMENTAZIONE CITOFONO IN ALLARME\PAL+ - AL2                    SUONERIA ALLARME\PAL+ - LEM                    LUCE EMERGENZA 12VDC\PCTF - CTF                    CONSE
+  3
+NSO COMBINATORE TELEFONICO\PTOL - TOL                    CONTATTO TERMICO OLIO\PIG - IG                      4%%D POLO INTERRUTTORE GENERALE\PPTC - PTC                    TERMISTORI MOTORE\PLF - LF                      ALIMENTAZIONE OPERATORE PORTE E
+  3
+LETTRONICO (220VAC O 24VAC)\PR- S -T                      LINEA TRIFASE\PU- V -W                      MOTORE POMPA\PL1 - L2                      LINEA LUCE 230VAC\PLD-- LD+                     LUCE CABINA LED 24V FISSA\PLD+- LDX                     L
+  1
+UCE CABINA LED 24V A TEMPO\P+24                          24 V GRUPPO BATTERIE\P+48                          48 V GRUPPO BATTERIE\P-                            NEGATIVO GRUPPO BATTERIE\PLE - LE                      SPIA IN EMERGENZA 24V\P
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+FF
 100
 AcDbEntity
   8
@@ -8261,7 +8557,7 @@ ByLayer
 100
 AcDbMText
  10
-303
+304
  20
 35
  30
@@ -8275,53 +8571,7 @@ AcDbMText
  72
     1
   1
-Schema: MC-POC48SEMIAE06A3TR\PFoglio: 1 di 20
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-F8
-100
-AcDbEntity
-  8
-text
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-210
- 20
-200
- 30
-0
- 40
-10
- 41
-224.1666624266249
- 71
-    2
- 72
-    1
-  1
-SCHEMA MC-POC48SEMIAE06A3TR\P\PVERSIONE 0.1.0
+Schema: MC-POC48SEMIAE06A3TR\PFoglio: 19 di 20
   7
 standard
 210

@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-10000000000
+-0.5
  20
-10000000000
+0.25
  30
 0
   9
 $EXTMAX
  10
--10000000000
+419.5
  20
--10000000000
+297.25
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-text
+schematic
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-220.3230117119796
+233.256242568371
  22
-144.4570689998357
+150.9720570749108
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-299.6531527214817
+305.4756242568371
  41
 1.680924855491329
  42
@@ -2321,7 +2321,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-text
+schematic
  70
     0
  62
@@ -7969,9 +7969,49 @@ SECTION
   2
 ENTITIES
   0
-LINE
+INSERT
   5
 EE
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+a3-0
+ 10
+-0.5
+ 20
+0.25
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+0
+ 45
+0
+  0
+LINE
+  5
+EF
 100
 AcDbEntity
   8
@@ -7992,30 +8032,6 @@ AcDbLine
 408.897887324
  21
 286.019366197
-  0
-LINE
-  5
-EF
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-408.897887324
- 20
-286.019366197
- 11
-408.897887324
- 21
-12.5492957746
   0
 LINE
   5
@@ -8035,6 +8051,30 @@ AcDbLine
  10
 408.897887324
  20
+286.019366197
+ 11
+408.897887324
+ 21
+12.5492957746
+  0
+LINE
+  5
+F1
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+408.897887324
+ 20
 12.5492957746
  11
 20.3926056338
@@ -8043,7 +8083,7 @@ AcDbLine
   0
 LINE
   5
-F1
+F2
 100
 AcDbEntity
   8
@@ -8067,7 +8107,7 @@ AcDbLine
   0
 LINE
   5
-F2
+F3
 100
 AcDbEntity
   8
@@ -8091,7 +8131,7 @@ AcDbLine
   0
 LINE
   5
-F3
+F4
 100
 AcDbEntity
   8
@@ -8115,7 +8155,7 @@ AcDbLine
   0
 INSERT
   5
-F4
+F5
 100
 AcDbEntity
   8
@@ -8153,9 +8193,105 @@ eca-logo-1
  45
 0
   0
+LINE
+  5
+F6
+100
+AcDbEntity
+  8
+help-lines
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-0.3706532681816158
+ 20
+148.6319605408279
+ 11
+15.1698729811
+ 21
+148.6319605408279
+  0
+LINE
+  5
+F7
+100
+AcDbEntity
+  8
+help-lines
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+413.830127019
+ 20
+148.6864622175099
+ 11
+419.5
+ 21
+148.7268816659979
+  0
+LINE
+  5
+F8
+100
+AcDbEntity
+  8
+help-lines
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+314.5451730611308
+ 20
+297.224709437482
+ 11
+314.5451730611308
+ 21
+291.580151019
+  0
+LINE
+  5
+F9
+100
+AcDbEntity
+  8
+help-lines
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+314.4947345867757
+ 20
+0.3389682416326533
+ 11
+314.4947345867757
+ 21
+5.91984898108
+  0
 MTEXT
   5
-F5
+FA
 100
 AcDbEntity
   8
@@ -8201,11 +8337,11 @@ standard
   0
 MTEXT
   5
-F6
+FB
 100
 AcDbEntity
   8
-text
+schematic
   6
 ByLayer
  62
@@ -8215,21 +8351,21 @@ ByLayer
 100
 AcDbMText
  10
-26.32372913232728
+90
  20
-50.62255602370631
+260
  30
 0
  40
-3
+5
  41
-153.1666660306604
+39.99999893998956
  71
     1
  72
     1
   1
-OLEO SIMPLEX\PCENTRALINA START ELEVATOR CON VALVOLA ELETTRONICA LIVELLAZIONE\PSOFT STARTER\PTESTATA RIDOTTA (FOSSA RIDOTTA)\PEMENDAMENTO A3\PPORTE 48VCC\PCHIAVI PRIORITARIE\P\P\P
+DESCRIZIONE
   7
 standard
 210
@@ -8247,7 +8383,169 @@ standard
   0
 MTEXT
   5
-F7
+FC
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+30
+ 20
+280
+ 30
+0
+ 40
+10
+ 41
+135.2777777777778
+ 71
+    1
+ 72
+    1
+  1
+ELENCO COMPONENTI
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+FD
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+30
+ 20
+260
+ 30
+0
+ 40
+5
+ 41
+16.11111111111111
+ 71
+    1
+ 72
+    1
+  1
+NOME
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+FE
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+30
+ 20
+250
+ 30
+0
+ 40
+2.6
+ 41
+211.0333289236894
+ 71
+    1
+ 72
+    1
+  3
+ALB                          CARICA BATTERIA BC 12V\PCFS                          RELÈ DI FASE\PAMC1                         ALIMENTATORE MCP2015X, RSS, BOX A3 24V\PAMC2                         ALIMENTATORE MCP2015X, RSS, BOX A3 24V\PAB1            
+  3
+              CARICABATTERIE BATTERIE EMERGENZA 24V\PAB2                          CARICABATTERIE BATTERIE EMERGENZA 24V\PALD                          ALIMENTATORE 24V LED LUCE CABINA\PBC                           BATTERIA ALLARME 12V 7AH\PF1         
+  3
+                  FUSIBILE 4A TR1\PF2                           FUSIBILE 4A TR2\PF3                           FUSIBILE 4A CIRCUITO MANOVRA\PF4                           FUSIBILE 4A CIRCUITO LUMINOSE\PF5 - F6                      FUSIBILE MOTORE PORTE
+  3
+ TRIFASE\PF5                           FUSIBILE MOTORE PORTE 48VCC\PF7                           FUSIBILE 4A OPERATORE PORTE ELETTRONICO\PF8                           FUSIBILE PATTINO RETRATTILE\PF9                           FUSIBILE 4A PROTEZIONE CI
+  3
+RCUITO VALVOLE\PF10                          FUSIBILE 4A PROTEZIONE +24VDC GRUPPO BATTERIE\PF11                          FUSIBILE 4A PROTEZIONE +48VDC GRUPPO BATTERIE\PF12                          FUSIBILE 4A ALIMENTAZIONE CENTRALINA START ELEVATOR\P
+  3
+VA                           VALVOLA MAGNETOTERMICA PROTEZIONE CIRCUITO MANOVRA\PTR1                          TRASFORMATORE MONOFASE ALIMENTAZIONE QUADRO\PTR2                          TRASFORMATORE MONOFASE ALIMENTAZIONE QUADRO\P\PMCP2015X-SMD       
+  3
+          SCHEDA MADRE MICROPROCESSORE\PPER16B-SMD                   SCHEDA ESPANSIONE CHIAMATE CABINA/DISPLAY E CHIAMATE PIANI SALITA/DISCESA\PPER23                        SCHEDA PER16B-SMD PER GESTIONE CHIAVI PRIORITARIE\PL1307                     
+  3
+   SCHEDA LEGGE 13\PMIAE                         SCHEDA EMERGENZA\PSMS-START                    SOFT-STARTER\P\PRX                           RELE’ CONTROLLO FOSSA-TESTATA RIDOTTA\PP                            TELERUTTORE PROTEZIONE\PDS1            
+  3
+              TELERUTTORE DISCESA\PDS2                          TELERUTTORE DISCESA\PSAL                          TELERUTTORE SALITA\PPV                           RELÈ BASSA VELOCITÀ\PRP                           RELÈ PATTINO\PRM                  
+  3
+         RELE’ MANUTENZIONE\PPX                           AUSILIARIO TELERUTTORE PROTEZIONE\PSX                           AUSILIARIO TELERUTTORE SALITA\PAP1 - AP2                    RELÈ APERTURA\PCP1 - CP2                    RELÈ CHIUSURA\PRSS  
+  3
+                        RELÈ SICUREZZA\PBOX A3                       GESTIONE CONTROLLO A3\PX1 - X2                      RELÈ GESTIONE A3\PCEX                          SCHEDA CONTROLLO FOSSA-TESTATA RIDOTTA\PRD1                          RADDRIZZATO
+  3
+RE MANOVRA\PRD2                          RADDRIZZATORE LUMINOSE\PRD3                          RADDRIZZATORE VALVOLE >48V\PRD4                          RADDRIZZATORE PATTINO\PRD5                          RADDRIZZATORE PORTE 48VCC\PRD6                 
+  1
+         RADDRIZZATORE ALIMENTAZIONE CENTRALINA START ELEVATOR\P
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+FF
 100
 AcDbEntity
   8
@@ -8261,7 +8559,7 @@ ByLayer
 100
 AcDbMText
  10
-303
+304
  20
 35
  30
@@ -8275,53 +8573,7 @@ AcDbMText
  72
     1
   1
-Schema: MC-POC48SEMIAE06A3TR\PFoglio: 1 di 20
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-F8
-100
-AcDbEntity
-  8
-text
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-210
- 20
-200
- 30
-0
- 40
-10
- 41
-224.1666624266249
- 71
-    2
- 72
-    1
-  1
-SCHEMA MC-POC48SEMIAE06A3TR\P\PVERSIONE 0.1.0
+Schema: MC-POC48SEMIAE06A3TR\PFoglio: 20 di 20
   7
 standard
 210

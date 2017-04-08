@@ -1,0 +1,53 @@
+ALB                          CARICA BATTERIA BC 12V
+CFS                          RELÈ DI FASE
+AMC1                         ALIMENTATORE MCP2015X, RSS, BOX A3 24V
+AMC2                         ALIMENTATORE MCP2015X, RSS, BOX A3 24V
+AB1                          CARICABATTERIE BATTERIE EMERGENZA 24V
+AB2                          CARICABATTERIE BATTERIE EMERGENZA 24V
+ALD                          ALIMENTATORE 24V LED LUCE CABINA
+BC                           BATTERIA ALLARME 12V 7AH
+F1                           FUSIBILE 4A TR1
+F2                           FUSIBILE 4A TR2
+F3                           FUSIBILE 4A CIRCUITO MANOVRA
+F4                           FUSIBILE 4A CIRCUITO LUMINOSE
+F5 - F6                      FUSIBILE MOTORE PORTE TRIFASE
+F5                           FUSIBILE MOTORE PORTE 48VCC
+F7                           FUSIBILE 4A OPERATORE PORTE ELETTRONICO
+F8                           FUSIBILE PATTINO RETRATTILE
+F9                           FUSIBILE 4A PROTEZIONE CIRCUITO VALVOLE
+F10                          FUSIBILE 4A PROTEZIONE +24VDC GRUPPO BATTERIE
+F11                          FUSIBILE 4A PROTEZIONE +48VDC GRUPPO BATTERIE
+F12                          FUSIBILE 4A ALIMENTAZIONE CENTRALINA START ELEVATOR
+VA                           VALVOLA MAGNETOTERMICA PROTEZIONE CIRCUITO MANOVRA
+TR1                          TRASFORMATORE MONOFASE ALIMENTAZIONE QUADRO
+TR2                          TRASFORMATORE MONOFASE ALIMENTAZIONE QUADRO
+
+MCP2015X-SMD                 SCHEDA MADRE MICROPROCESSORE
+PER16B-SMD                   SCHEDA ESPANSIONE CHIAMATE CABINA/DISPLAY E CHIAMATE PIANI SALITA/DISCESA
+PER23                        SCHEDA PER16B-SMD PER GESTIONE CHIAVI PRIORITARIE
+L1307                        SCHEDA LEGGE 13
+MIAE                         SCHEDA EMERGENZA
+SMS-START                    SOFT-STARTER
+
+RX                           RELE’ CONTROLLO FOSSA-TESTATA RIDOTTA
+P                            TELERUTTORE PROTEZIONE
+DS1                          TELERUTTORE DISCESA
+DS2                          TELERUTTORE DISCESA
+SAL                          TELERUTTORE SALITA
+PV                           RELÈ BASSA VELOCITÀ
+RP                           RELÈ PATTINO
+RM                           RELE’ MANUTENZIONE
+PX                           AUSILIARIO TELERUTTORE PROTEZIONE
+SX                           AUSILIARIO TELERUTTORE SALITA
+AP1 - AP2                    RELÈ APERTURA
+CP1 - CP2                    RELÈ CHIUSURA
+RSS                          RELÈ SICUREZZA
+BOX A3                       GESTIONE CONTROLLO A3
+X1 - X2                      RELÈ GESTIONE A3
+CEX                          SCHEDA CONTROLLO FOSSA-TESTATA RIDOTTA
+RD1                          RADDRIZZATORE MANOVRA
+RD2                          RADDRIZZATORE LUMINOSE
+RD3                          RADDRIZZATORE VALVOLE >48V
+RD4                          RADDRIZZATORE PATTINO
+RD5                          RADDRIZZATORE PORTE 48VCC
+RD6                          RADDRIZZATORE ALIMENTAZIONE CENTRALINA START ELEVATOR
