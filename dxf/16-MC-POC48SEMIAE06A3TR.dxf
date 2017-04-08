@@ -1115,7 +1115,7 @@ AcDbViewportTableRecord
  21
 1
  12
-276.3827392120075
+234.312382739212
  22
 151.2861163227017
  13
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 308.1444652908067
  41
-2.227848101265823
+1.681735985533454
  42
 50
  43
@@ -23397,55 +23397,9 @@ standard
  44
 1
   0
-MTEXT
-  5
-2E6
-100
-AcDbEntity
-  8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-302.654478423
- 20
-37.8318098028
- 30
-0
- 40
-3
- 41
-66.91666539465454
- 71
-    1
- 72
-    1
-  1
-Schema: MC-POC48SEMIAE06A3TR\PAutore: Belardi\PData: 01/16\PFoglio: 16 di 20
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 INSERT
   5
-2E7
+2E6
 100
 AcDbEntity
   8
@@ -23485,7 +23439,7 @@ Terminal-in
   0
 INSERT
   5
-2E8
+2E7
 100
 AcDbEntity
   8
@@ -23525,7 +23479,7 @@ Terminal-in-0
   0
 MTEXT
   5
-2E9
+2E8
 100
 AcDbEntity
   8
@@ -23571,7 +23525,7 @@ standard
   0
 MTEXT
   5
-2EA
+2E9
 100
 AcDbEntity
   8
@@ -23617,7 +23571,7 @@ standard
   0
 LINE
   5
-2EB
+2EA
 100
 AcDbEntity
   8
@@ -23641,7 +23595,7 @@ AcDbLine
   0
 LINE
   5
-2EC
+2EB
 100
 AcDbEntity
   8
@@ -23665,7 +23619,7 @@ AcDbLine
   0
 MTEXT
   5
-2ED
+2EC
 100
 AcDbEntity
   8
@@ -23711,7 +23665,7 @@ standard
   0
 LWPOLYLINE
   5
-2EE
+2ED
 100
 AcDbEntity
   8
@@ -23749,7 +23703,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-2EF
+2EE
 100
 AcDbEntity
   8
@@ -23787,7 +23741,7 @@ AcDbPolyline
   0
 MTEXT
   5
-2F0
+2EF
 100
 AcDbEntity
   8
@@ -23816,6 +23770,52 @@ AcDbMText
     1
   1
 GND
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+2F0
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+302.654478423
+ 20
+37.8318098028
+ 30
+0
+ 40
+3
+ 41
+66.91666539465454
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-POC48SEMIAE06A3TR\PFoglio: 16 di 20
   7
 standard
 210
